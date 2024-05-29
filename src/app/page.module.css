@@ -1,0 +1,31 @@
+/* page.module.css */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.logoContainer {
+  margin-bottom: 50px; /* Space between logo and button */
+}
+
+.loginButton {
+  padding: 15px 30px;
+  background-color: #0070f3; /* Sample color; you can change it */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.loginButton:hover {
+  background-color: #0055a3; /* Darker shade for hover effect */
+}
+
+/* Add more styles as per your design requirements */

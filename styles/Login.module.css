@@ -1,0 +1,43 @@
+.container {
+    max-width: 400px;
+    margin-top: 130px;
+    margin-left: 70vh;
+    padding: 20px;
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 5px;
+    align-items: center; /* Center items horizontally */
+  justify-content: center; 
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logoContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 50px;
+  }
+  .headingstyle{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  }
+
+  .input,
+  .select,
+  .button {
+    margin-bottom: 30px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .error {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
